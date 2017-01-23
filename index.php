@@ -2,25 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <title> Chat Room Test </title>
-
   </head>
   <body>
-
-  <form action="/PrivateChatRoom/chatroom.html">
-    Name: <input type="text" name="name" id="name" value="" />
-    Comments: <textarea name="comments" id="comments" cols="25" rows="3"></textarea>
-    <input type="submit" value="submit" />
-  </form>
-
-    <script type="text/javascript">
-function getwords() {
-  text = words.value;
-  document.getElementById("para").innerHTML += '<p>'+text
-  document.getElementById("words").value = "enter"
-}
-    </script>
-
+    <?php
+    
+    ?>
   </body>
 </html>
